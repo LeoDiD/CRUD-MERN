@@ -4,6 +4,9 @@ import "./user.css"
 const user = () => {
   return (
     <div className='userTable'>
+        <button type='button' class="btn btn-primary">
+                Primary
+        </button>
         <table className='table table-bordered'>
             <thead>
                     <tr>
